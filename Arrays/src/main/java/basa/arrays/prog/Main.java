@@ -16,7 +16,7 @@ public class Main {
        // Arrays.sort(ar);
         System.out.println(Arrays.toString(ar));
         System.out.println("==Find the sum of all array elements==");
-        int[] arr = {80, 20, 60, 40, 10};
+        int[] arr = {80, 20, 60,55, 40, 10};
         int tot=0;
         for (int i = 0; i < arr.length; i++) {
             tot+=arr[i];
@@ -46,6 +46,9 @@ public class Main {
                 break;
             }
         }
-        System.out.println("==Reverse an array==");
+        System.out.println("==Reverse an array==\n"+Arrays.toString(arr));
+        for (int i = arr.length-1; i >=0 ; i--) {
+            System.out.print(arr[i]+" ");
+        }
     }
 }
