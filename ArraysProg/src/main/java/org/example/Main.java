@@ -43,6 +43,5 @@ public class Main {
             }
         }
         System.out.println(f_lar+"==="+s_lar+"===="+trd_lar);
-
     }
 }
